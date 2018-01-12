@@ -17,5 +17,7 @@
 
 
 .navbar-pf .navbar-brand {
-    background: url('../img/jtg-logo-small.png') no-repeat 0px 5px;
+    background: url('../img/jtg-logo.png') no-repeat 0px 5px;
+    height: 70px;
+    width: 335px;
 }

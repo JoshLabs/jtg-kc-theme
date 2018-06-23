@@ -131,3 +131,11 @@ body {
     width: auto;
     vertical-align: middle;
 }
+
+#kc-social-providers {
+    margin: 20px 0;
+}
+
+#kc-social-providers .btn {
+    margin: 10px 0;
+}

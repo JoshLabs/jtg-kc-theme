@@ -84,12 +84,13 @@ header div.container {
 }
 
 #tab-content div > button[value="Save"] {
-    background-color: #46af00;
+    background-color: #367fa9;
     text-transform: uppercase;
 }
 
 #tab-content div > button[value="Save"]:hover {
-    background-color: #3f9d00;
+    background-color: #286090;
+    border-color: #204d74;
 }
 
 #tab-content div > button[value="Cancel"] {

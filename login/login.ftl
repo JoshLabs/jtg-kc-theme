@@ -81,11 +81,9 @@
     <#elseif section = "info" >
         <#if realm.password && social.providers??>
             <div id="kc-social-providers">
-                <ul>
                     <#list social.providers as p>
-                        <li><a href="${p.loginUrl}" id="zocial-${p.alias}" class="zocial ${p.providerId}"> <span class="text">${p.displayName}</span></a></li>
+                        <a href="${p.loginUrl}" id="zocial-${p.alias}" class="zocial ${p.providerId}"> <span class="btn btn-primary btn-block btn-flat">${p.displayName}</span></a>
                     </#list>
-                </ul>
             </div>
         </#if>
     </#if>

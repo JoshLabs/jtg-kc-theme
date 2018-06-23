@@ -31,7 +31,8 @@
         </div>
         <h1>Welcome to Josh Technology Group Auth Portal</h1>
 
-        <!--p><a href="admin/">Administration Console</a> </p-->
+        <p><a href="admin/">Administration Console</a> </p>
+        <p><a href="realms/jtg/account">JTG Login Console</a> </p>
 
       </div>
 </div>

@@ -20,3 +20,26 @@
     height: 70px;
     width: 335px;
 }
+
+#zocial-gsuite, #zocial-gsuite-calyx {
+    background-color: #dd4b39 !important;
+
+    background-image: none;
+    border-radius: 2px;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+
+    box-shadow: none;
+    text-shadow: none;
+
+    width: 230px;
+}
+
+#zocial-gsuite:hover, #zocial-gsuite-calyx:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%) !important;
+}
+
+#zocial-gsuite:before, #zocial-gsuite-calyx:before {
+    content: "\f126";
+}
